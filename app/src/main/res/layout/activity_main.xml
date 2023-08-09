@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Paddle -->
+    <View
+        android:id="@+id/paddle"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF" />
+
+    <!-- Bricks -->
+    <!-- You can create multiple rows and columns of bricks using a loop -->
+    <!-- For simplicity, let's create a single row of bricks -->
+    <View
+        android:id="@+id/brick"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#FF5733" />
+
+    <!-- Ball -->
+    <View
+        android:id="@+id/ball"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFF" />
+
+</RelativeLayout>
